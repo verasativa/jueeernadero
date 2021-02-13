@@ -1,0 +1,23 @@
+{
+  "clock": "2",
+  "sensors": {
+    "internal": {
+      "metrics": ["co2", "temperature", "humidity"]
+    },
+    "external": {
+      "metrics": ["temperature", "humidity"]
+    }
+  },
+  "controls": {
+    "relays": {
+      "light": 22,
+      "light_fan": 24,
+      "fan": 26,
+      "heater": 28,
+      "pump_01": 30,
+      "pump_02": 32,
+      "pump_03": 34,
+      "pump_04": 36
+    }
+  }
+}
